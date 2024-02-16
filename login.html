@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html class="width_max">
 
 <head>
     <title>로그인</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media screen and (max-width:800px){
+            .change_height {
+                height: auto;
+            }
+        }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="C:\Users\PC\Desktop\데바데\login-style.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8" style="background-color: rgb(29, 29, 29)">
+<body class="width_max">
+    <div class="flex min-h-full flex-col justify-center px-6 py-12 black">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
             <img class="mx-auto h-11 w-auto rounded-full" src="image/dead_by_daylight.jpg" alt="Your Company">
             <h2 class="mt-9 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
@@ -44,7 +51,7 @@
                 </div>
 
                 <div>
-                    <button type="submit" class="signin hover:focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                    <button type="submit" class="signin bg-zinc-800 hover:bg-zinc-700">
                         Sign in</button>
                 </div>
             </form>

@@ -10,7 +10,7 @@
     width: 100%;
     justify-content: center;
     border-radius: 0.375rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
     color: rgb(109, 109, 109);
     font-weight: 600;
     padding-top: 0.375rem; /* 6px */
@@ -20,10 +20,14 @@
     font-size: 0.875rem; /* 14px */
     line-height: 1.25rem; /* 20px */
     line-height: 1.5rem; /* 24px */
-    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-.signin:hover {
-    background-color: rgb(255, 255, 255);
-    --tw-shadow-color: rgb(255,255,255);
+.width_max {
+    height: 100%;
+}
+
+.black {
+    background-color: black;
 }
